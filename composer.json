@@ -25,5 +25,14 @@
             ]
         }
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "stable",
+    "repositories": [
+    {
+        "type": "vcs",
+        "url": "https://github.com/Hamzasehouli/morocco-locations"
+    }
+    ],
+    "require": {
+        "sehouli/morocco-locations": "master"
+    }
 }
