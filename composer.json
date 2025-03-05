@@ -2,22 +2,49 @@
     "name": "sehouli/morocco-locations",
     "description": "This package can provide functionality related to geographic data for Morocco. This data includes regions, cities, provinces and postal codes. Applications that require location-based services, such as e-commerce platforms, logistics applications, or travel-related websites, could find this useful.",
     "type": "library",
+    "authors": [
+        {
+            "name": "Hamza Sehouli",
+            "email": "info@hamza-sehouli.com",
+            "homepage": "https://hamza-sehouli.com",
+            "role": "Developer"
+        }
+    ],
+    "keywords": [
+        "Hamza Sehouli",
+        "laravel",
+        "morocco",
+        "morocco geo",
+        "morocco city",
+        "morocco regions",
+        "morocco addresses",
+        "morocco geo"
+    ],
     "require": {
-        "php": "^8.2",
-        "laravel/laravel": "^12.0",
-        "illuminate/support": "^8.0"
+        "php": "^8.0",
+        "illuminate/support": "^8.12|^9.0|^10.0|^11.0|^12.0",
+        "illuminate/container": "^8.12|^9.0|^10.0|^11.0|^12.0",
+        "illuminate/contracts": "^8.12|^9.0|^10.0|^11.0|^12.0",
+        "illuminate/database": "^8.12|^9.0|^10.0|^11.0|^12.0"
     },
-    "license": "sehouli",
+    "require-dev": {
+        "laravel/pint": "^1.0"
+    },
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Sehouli\\MoroccoLocations\\": "src/"
         }
     },
-    "authors": [
-        {
-            "name": "Hamza Sehouli"
+    "autoload-dev": {
+        "psr-4": {
+            "Sehouli\\MoroccoLocations\\": "tests/"
         }
-    ],
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "homepage": "https://github.com/Hamzasehouli/morocco-locations",
     "extra": {
         "laravel": {
             "providers": [
@@ -25,14 +52,10 @@
             ]
         }
     },
-    "minimum-stability": "stable",
-    "repositories": [
-    {
-        "type": "vcs",
-        "url": "https://github.com/Hamzasehouli/morocco-locations"
-    }
-    ],
-    "require": {
-        "sehouli/morocco-locations": "master"
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "scripts": {
+        "test": "phpunit",
+        "format": "pint"
     }
 }

@@ -5,7 +5,7 @@ namespace Sehouli\MoroccoLocations;
 use Illuminate\Support\ServiceProvider;
 use Sehouli\MoroccoLocations\SehouliPackage;
 
-class MyLaravelPackageServiceProvider extends ServiceProvider
+class SehouliServiceProvider extends ServiceProvider
 {
     public function boot()
     {
