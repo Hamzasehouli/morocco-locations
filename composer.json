@@ -46,6 +46,10 @@
     },
     "homepage": "https://github.com/Hamzasehouli/morocco-locations",
     "extra": {
+        "branch-alias": {
+            "dev-main": "6.x-dev",
+            "dev-master": "6.x-dev"
+        },
         "laravel": {
             "providers": [
                 "Sehouli\\MoroccoLocations\\SehouliServiceProvider"
