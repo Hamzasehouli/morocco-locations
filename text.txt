@@ -1,0 +1,9 @@
+my-laravel-package/
+├── src/
+├── config/
+├── routes/
+├── resources/
+├── database/
+├── tests/
+├── composer.json
+└── README.md

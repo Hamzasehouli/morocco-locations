@@ -1,0 +1,29 @@
+{
+    "name": "sehouli/morocco-locations",
+    "description": "This package can provide functionality related to geographic data for Morocco. This data includes regions, cities, provinces and postal codes. Applications that require location-based services, such as e-commerce platforms, logistics applications, or travel-related websites, could find this useful.",
+    "type": "library",
+    "require": {
+        "php": "^8.2",
+        "laravel/laravel": "^12.0",
+        "illuminate/support": "^8.0"
+    },
+    "license": "sehouli",
+    "autoload": {
+        "psr-4": {
+            "Sehouli\\MoroccoLocations\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Hamza Sehouli"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sehouli\\MoroccoLocations\\SehouliServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable"
+}
