@@ -1,5 +1,5 @@
 {
-    "name": "sehouli/morocco-locations",
+    "name": "Hamzasehouli/morocco-locations",
     "description": "This package can provide functionality related to geographic data for Morocco. This data includes regions, cities, provinces and postal codes. Applications that require location-based services, such as e-commerce platforms, logistics applications, or travel-related websites, could find this useful.",
     "type": "library",
     "authors": [
@@ -61,5 +61,14 @@
     "scripts": {
         "test": "phpunit",
         "format": "pint"
-    }
+    },
+        "repositories": [
+            {
+                "type": "vcs",
+                "url": "https://github.com/Hamzasehouli/morocco-locations"
+            }
+        ],
+        "require": {
+            "Hamzasehouli/morocco-locations": "master"
+        }
 }
